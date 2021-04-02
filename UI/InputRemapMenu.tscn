@@ -9,6 +9,9 @@
 anchor_right = 1.0
 anchor_bottom = 1.0
 script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="Background" type="ColorRect" parent="."]
 margin_right = 1024.0
@@ -163,4 +166,7 @@ margin_top = 500.0
 margin_right = 612.0
 margin_bottom = 540.0
 text = "Quit"
+__meta__ = {
+"_edit_use_anchors_": false
+}
 [connection signal="pressed" from="Quit" to="." method="_on_Quit_pressed"]
